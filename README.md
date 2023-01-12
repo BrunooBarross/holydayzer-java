@@ -1,18 +1,11 @@
-## Getting Started
+<p align="center">
+    <h1 align="center">
+        Holydayzer
+    </h1>
+</p>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Requisitos
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Ter uma classe separada para trabalhar com os feriados
+- Ter um função que recebe um parâmetro string que é a data do feriado! Caso não exista exibe uma mensagem dizendo que não existe feriado com tal dada, caso exista, buscar na lista de feriados o feriado com a data e imprimir uma mensagem informando a qual feriado se refere.
+- Ter uma função que retorna a lista com todos os feriados.
